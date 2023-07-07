@@ -1,0 +1,405 @@
+body {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2em;
+}
+
+div {
+    display: flex;
+}
+
+.first {
+    align-items: center;
+    padding: 0.8em 35%;
+    background-color: rgb(18, 28, 63);
+    position: sticky;
+    top: 1px;
+    z-index: 100;
+}
+
+.first p {
+    color: rgb(0, 169, 0);
+    width: 20em;
+    margin: auto;
+    white-space: nowrap;
+    font-weight: bolder;
+}
+
+.first p span {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.first button {
+    width: 10em;
+    margin-left: -1em;
+    background-color: rgb(0, 169, 0);
+    color: #ffffff;
+    border: rgb(0, 169, 0);
+    border-radius: 10em;
+    white-space: nowrap;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.first button:hover {
+    background-color: rgb(0, 89, 0);
+    ;
+}
+
+.second {
+    padding: 1.5em 4%;
+}
+
+.second img {
+    width: 10em;
+    height: 4em;
+    margin-right: 3%;
+}
+
+.second p {
+    margin-left: 2.5%;
+    white-space: nowrap;
+}
+
+.second p span {
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.second img:nth-child(6) {
+    width: 2.2em;
+    height: 3em;
+    margin-left: 28%;
+}
+
+.second button {
+    background-color: #ffffff;
+    color: black;
+    font-weight: bolder;
+    font-size: 10px;
+    padding: 0 2em;
+}
+
+.second button:hover {
+    background-color: rgb(0, 169, 0);
+}
+
+
+
+.third img {
+    width: 100%;
+    position: relative;
+    filter: brightness(50%);
+}
+
+.third p {
+    position: absolute;
+    color: #ffffff;
+}
+
+.third p.small {
+    font-size: 12PX;
+    margin-top: 50px;
+    margin-left: 55px;
+}
+
+.third p:nth-child(3) {
+    margin-top: 80px;
+    margin-left: 53px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.third p:nth-child(4) {
+    margin-top: 330px;
+    margin-left: 55px;
+}
+
+.third .buyTry {
+    position: absolute;
+    display: flex;
+    margin-top: 388px;
+    margin-left: 55px;
+}
+
+.third .buyTry button {
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+.third .buyTry .buy {
+    background-color: greenyellow;
+    border-width: 0px;
+}
+
+.third .buyTry .buy:hover {
+    background-color: rgb(115, 174, 26);
+}
+
+
+.third .buyTry .try {
+    background-color: transparent;
+    color: greenyellow;
+    border-color: greenyellow;
+    border-width: 2px;
+    margin-left: 10px;
+}
+
+.third .buyTry .try:hover {
+    background-color: rgba(172, 255, 47, 0.501);
+    color: black;
+}
+
+.fourth {
+    padding: 0 10%;
+}
+
+.fourth img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    height: 80px;
+    margin-left: 5%;
+}
+
+.fourth p {
+    background-color: rgb(18, 28, 63);
+    color: greenyellow;
+    position: absolute;
+    width: 800px;
+    text-wrap: nowrap;
+    padding: 0 25% 30px 25%;
+    margin-top: -1px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+
+.fourth button {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 18px;
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+    font-size: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.fourth button:hover {
+    background-color: rgba(172, 255, 47, 0.501);
+}
+
+p.one {
+    width: 100%;
+    font-size: 30px;
+    color: rgb(18, 28, 63);
+    font-weight: bolder;
+    text-align: center;
+}
+
+p.two {
+    width: 100%;
+    font-size: 30px;
+    color: rgb(18, 28, 63);
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -35px;
+}
+
+.flex1 {
+    margin: 0 11%;
+}
+
+.flex1 div img {
+    margin: 0 43.5% 0 43.5%;
+    width: 20px;
+    height: 20px;
+}
+
+.flex1 div {
+    margin-left: 40px;
+    display: inline;
+    background-color: rgba(218, 236, 238, 255);
+    color: rgb(18, 28, 63);
+    padding: 20px 25px;
+    border-radius: 8px;
+}
+
+.flex1 div p {
+    text-align: center;
+}
+
+.flex1 div p:nth-child(2) {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: -5px;
+}
+
+.flex1 div:nth-child(1) button {
+    margin-left: 25%;
+    font-size: 10px;
+    color: rgba(218, 236, 238, 255);
+    background-color: rgb(0, 89, 0);
+    padding: 6px 13px;
+    border-radius: 5px;
+    border-width: 0px;
+    position: relative;
+    margin-top: 3%;
+}
+
+.flex1 div button:hover {
+    background-color: rgba(0, 89, 0, 0.31);
+    color: rgb(18, 28, 63);
+}
+
+.flex1 div .down {
+    margin-left: 25%;
+    font-size: 10px;
+    color: rgba(218, 236, 238, 255);
+    background-color: rgb(0, 89, 0);
+    padding: 6px 13px;
+    border-radius: 5px;
+    border-width: 0px;
+    position: relative;
+    margin-top: 10%;
+}
+
+.flex2 {
+    display: flex;
+    padding: 4% 8%;
+}
+
+.flex2 div {
+    display: inline;
+    color: rgb(18, 28, 63);
+    margin-top: -9px;
+    z-index: 80;
+}
+
+.flex2 div p:nth-child(1) {
+    font-size: 50px;
+    font-weight: bolder;
+    text-wrap: nowrap;
+}
+
+.flex2 div p:nth-child(2) {
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+.flex2 div button {
+    background-color: #ffffff;
+    color: rgb(18, 28, 63);
+    border-radius: 4px;
+    border-width: 2px;
+    margin-top: 4px;
+    font-size: 10px;
+    padding: 5px 8px;
+}
+
+.flex2 div button:hover {
+    background-color: rgb(18, 28, 63);
+    color: #ffffff;
+}
+
+.flex2 img {
+    width: 45%;
+    height: 48%;
+    margin-top: 10%;
+    margin-left: -2%;
+    z-index: 0;
+}
+
+.question {
+    background-color: rgb(18, 28, 63);
+    display: inline;
+    width: 100%;
+    color: #ffffff;
+}
+
+.question p {
+    text-align: center;
+}
+
+.question p:nth-child(1) {
+    background-color: rgb(18, 28, 63);
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 4% 0 8% 0;
+    margin-bottom: -65px;
+}
+
+.question p:nth-child(1) span {
+    color: greenyellow;
+}
+
+.question p button {
+    background-color: transparent;
+    color: #ffffff;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: #ffffff;
+    font-size: 10px;
+    padding: 8px 14px;
+}
+
+.question p button:hover {
+    background-color: rgba(0, 0, 0, 0.365)
+}
+
+.run {
+    margin-top: 80px;
+    text-align: center;
+    color: rgb(18, 28, 63);
+    font-size: 33px;
+    font-weight: bolder;
+}
+
+.flex3 {
+    margin-right: 6%;
+}
+
+.flex3 div {
+    display: inline;
+    margin-left: 7%;
+
+    color: rgb(18, 28, 63);
+}
+
+.flex3 div p {
+    text-align: center;
+    text-wrap: nowrap;
+}
+
+.flex3 div p:nth-child(2) {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.flex3 div img {
+    width: 75%;
+    margin-left: 12%;
+}
+
+.flex3 div button {
+    background-color: transparent;
+    color: rgb(18, 28, 63);
+    border-color: rgb(18, 28, 63);
+    border-radius: 4px;
+    border-width: 2px;
+    padding: 8px 13px;
+    font-size: 10px;
+}
+
+.flex3 div button:hover {
+    background-color: rgba(18, 28, 63, 0.818);
+    color: rgb(255, 255, 255);
+}
