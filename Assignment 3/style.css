@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(65, 65, 65);
+}
+
+.main {
+    border-radius: 20px;
+    background: linear-gradient(135deg, #00feba, #0cca45);
+    width: 90%;
+    max-width: 550px;
+    color: white;
+    margin: 35px auto;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.search .search-logo {
+    width: 20px;
+    height: 25px;
+    background-color: transparent;
+}
+
+.search .search-logo {
+    width: 22px;
+    height: 25px;
+    background-color: transparent;
+}
+
+.search button {
+    background-color: transparent;
+    border: 0;
+    padding: 5px 5px 0 5px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    animation: key_frame_name 0.5s infinite;
+}
+
+@keyframes key_frame_name {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    70% {
+        transform: rotate(4deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.search button:hover {
+    background-color: #00f8b6a7;
+    border: 0;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.search .search-input {
+    border-radius: 30px;
+    padding: 5px 10px;
+    outline: 0;
+    border: 0;
+    color: #00bb89;
+}
+
+::placeholder {
+    color: #00bb89;
+    opacity: 1;
+}
+
+.weather {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.2s ease;
+}
+
+.days {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.5s ease;
+    transition-delay: 0.5s;
+    transition-duration: 9s;
+}
+
+.weather .weather-logo {
+    width: 150px;
+}
+
+.weather .content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.weather .content .col {
+    display: flex;
+}
+
+.weather .content .col p {
+    display: inline;
+}
+
+.weather .content .col img {
+    width: 50px;
+    margin-right: 5px;
+}
+
+.error {
+    text-align: left;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: red;
+    display: none;
+}
+
+.days {
+    display: flex;
+    max-width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.days>div {
+    border-left: white;
+    border-left-width: 5px;
+}
+
+.days img {
+    width: 80px;
+}
+
+.content {
+    max-width: 90%;
+    justify-content: space-between;
+}

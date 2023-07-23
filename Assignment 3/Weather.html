@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Weather App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Enter City Name">
+            <button class="search-button" id="search-button"> <img src="images/search.png" class="search-logo"></button>
+        </div>
+        <div class="error">
+            <p>
+                city not found
+            </p>
+        </div>
+        <div class="weather">
+            <img src="images/clouds.png" class="weather-logo">
+            <h1 class="temp">27°C</h1>
+            <h2 class="city-name">New York</h2>
+            <div class="content">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div class="additional-information">
+                        <p><b>Humidity</b></p><br>
+                        <p class="humidity">
+                            15
+                        </p>
+                        <p>%</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div class="additional-information">
+                        <p><b>Wind Speed</b></p><br>
+                        <p class="Wind">
+                            43
+                        </p>
+                        <p>km/h</p>
+                    </div>
+                </div>
+            </div>
+            <div class="days">
+                <div class="tmrw">
+                    <img src="images/clear.png" class="i2">
+                    <p class="t2">
+                        27°C
+                    </p>
+                    <h5 class="tmrw">
+                        Tomorrow
+                    </h5>
+                </div>
+                <div class="day">
+                    <img src="images/clear.png" class="i3">
+                    <p class="t3">
+                        <b>27°C</b>
+                    </p>
+                    <h5 class="d3">
+                        d3
+                    </h5>
+                </div>
+                <div class="day">
+                    <img src="images/clear.png" class="i4">
+                    <p class="t4">
+                        <b>27°C</b>
+                    </p>
+                    <h5 class="d4">
+                        d4
+                    </h5>
+
+                </div>
+                <div class="day">
+                    <img src="images/clear.png" class="i5">
+                    <p class="t5">
+                        <b>27°C</b>
+                    </p>
+                    <h5 class="d5">
+                        d5
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+</html>
