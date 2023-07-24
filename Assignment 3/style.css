@@ -74,7 +74,8 @@ body {
 
 .search {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 80px;
     align-items: center;
     width: 100%;
 }
@@ -85,6 +86,7 @@ body {
     outline: 0;
     border: 0;
     color: #00bb89;
+    width: 400px;
 }
 
 ::placeholder {
